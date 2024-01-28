@@ -1,0 +1,248 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    background-color: #f1faee;
+}
+
+.header .navbar-brand {
+    font-size: 24px;
+
+}
+
+.header .navbar-nav a {
+    color: black;
+    font-size: 14px;
+    margin-inline: 10px;
+
+}
+
+.header .navbar-nav a:hover {
+    color: brown;
+
+}
+
+.header .row {
+    min-height: 85vh;
+}
+
+.header .row .col:nth-child(1) h1 {
+    font-size: 48px;
+}
+
+.header .row .col:nth-child(1)>p {
+    font-size: 14px;
+    padding-right: 80px;
+}
+
+.header .row .col:nth-child(1) div i {
+    color: black;
+}
+
+.header .row .col:nth-child(1) div p {
+    font-size: 14px;
+
+}
+
+.header .row .col:nth-child(2) img:nth-child(1) {
+    width: 600px;
+    z-index: 2;
+
+}
+
+.header .row .col:nth-child(2) img:nth-child(2) {
+    width: 500px;
+    z-index: 1;
+
+}
+
+.product {
+    min-height: 60vh;
+}
+
+.product .row .col img {
+    width: 80px;
+
+}
+
+.product .row .col p {
+    font-size: 14px;
+}
+
+.about {
+    background-color: #f1faee;
+}
+
+.about .row {
+    min-height: 75vh;
+}
+
+.about .row .col img:nth-child(1) {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 2;
+    width: 850px;
+}
+
+.about .row .col img:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: 1;
+    width: 480px;
+}
+
+.visi {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.visi .row {
+    min-height: 70vh;
+}
+
+.visi .row .col img:nth-child(1) {
+    width: 100px;
+}
+
+.visi .row .col img:nth-child(2) {
+    width: 100px;
+
+}
+
+.footer {
+    min-height: 50vh;
+    background-color: #f1faee;
+}
+
+.footer .row .col a {
+    color: black;
+}
+
+.footer .row .col a:hover {
+    color: #dc3545;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .header .row .col:nth-child(1) h1 {
+        font-size: 50px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(1) {
+        width: 400px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(2) {
+        width: 500px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(3) {
+        right: -60px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(4) {
+        left: -80px;
+    }
+
+    .product .ro .col h5 {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .header .row .col:nth-child(2) img:nth-child(3) {
+        right: 50px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(4) {
+        left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header .row .col:nth-child(2) img:nth-child(1) {
+        width: 420px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(2) {
+        width: 380px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(3) {
+        right: 10px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(4) {
+        left: 0;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .header .row .col:nth-child(2) img:nth-child(1) {
+        display: none;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(1) {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 475px) {
+    .header .row .col:nth-child(1) h1 {
+        font-size: 40px;
+    }
+
+    .header .row .col:nth-child(1)>p {
+        font-size: 12px;
+    }
+
+    .header .row .col:nth-child(1) div p {
+        font-size: 12px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(1) {
+        width: 200px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(2) {
+        width: 300px;
+    }
+
+    .product .row .col p {
+        padding: 0 50px 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+    .header .row .col:nth-child(1) h1 {
+        font-size: 30px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(1) {
+        width: 150px;
+    }
+
+    .header .row .col:nth-child(2) img:nth-child(2) {
+        width: 250px;
+    }
+
+}
